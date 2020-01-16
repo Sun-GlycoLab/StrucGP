@@ -3,7 +3,7 @@ version:1.0.0
 release date: 01/15/2020
 
 Use of StucGP
-1. To use StrucGP, double click StrucGP.exe, you can see the GUI interface along with a command console
+1. To use StrucGP, double click main.exe, you can see the GUI interface along with a command console
 2. Click 'step 1' tab, choose directories for MS files, protein database (fasta file) and glycan branch structure database 
 3. Click 'step 2' tab, if you want to perform quantitative analysis, please select the corresponding label or click 'None' otherwise. Select fixed and variable modifications, if you need to add additional modifications, you can set modification name and monoisotopic mass by clicking 'Add to list' button.
 4. Click 'step 3' tab, fill in the search settings, such as energy, oxonium ions and mass tolerance.
