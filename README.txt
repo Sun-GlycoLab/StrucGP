@@ -1,6 +1,6 @@
 Name:StrucGP
-version:1.1.0
-release date: 09/15/2020
+version:1.0.0
+release date: 03/11/2021
 
 
 System requirements
@@ -15,7 +15,7 @@ StrucGP can be used without installation.
 
 
 Instructions for use
-1. Run main.exe file in main folder, you can see the GUI interface along with a command console.
+1. Run main.exe file, you can see the GUI interface along with a command console.
 2. Click 'step 1' tab, choose directories for MS files(mzML file), protein database (fasta file) and glycan branch structure database (branch_structure.xlsx).
 3. Click 'step 2' tab, if you want to perform quantitative analysis, please select the corresponding label or click 'None' otherwise. Select fixed and variable modifications, if you need to add additional modifications, you can set modification name and monoisotopic mass by clicking 'Add to list' button.
 4. Click 'step 3' tab, fill in the search settings, such as energy, oxonium ions and mass tolerance.
@@ -25,8 +25,8 @@ Instructions for use
 
 Demo
 Instructions to run on data
-1. Run main.exe file in main folder.
-2. Click 'step 1' tab, choose directories for MS files(test.mzML), protein database (test.fasta) and glycan branch structure database (branch_structure.xlsx).
+1. Run main.exe file.
+2. Click 'step 1' tab, choose directories for MS files(test.mzML), protein database (test.fasta) and glycan branch structure database (branch_structures.xlsx).
 3. Click 'step 3' tab, click 'Run' button to start search.
 Expected output
 test.xlsx(result file), test.csv and test.log in the directory of test.mzML. 
@@ -43,6 +43,6 @@ Noting
     Oxo_top_n, Oxo_ess_n, Oxo_ess_mz: glycopeptide spectra filter parameters, top n peaks must contain Oxo_ess_n times Oxo_ess_mz.
 
 Contact
-If you have any questions or suggestions, please contact JiechenShenGlyco@163.com or post issues at Github(https://github.com/Sun-GlycoLab/StrucGP).
+If you have any questions or suggestions, please contact sun_glycolab@126.com/JiechenShenGlyco@163.com or post issues at Github(https://github.com/Sun-GlycoLab/StrucGP).
 
 
