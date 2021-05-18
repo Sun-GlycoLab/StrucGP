@@ -1,7 +1,7 @@
 Name:StrucGP
 version:1.0.0
-release date: 03/11/2021
-
+release date: 05/18/2021
+developed by python3.9
 
 System requirements
 Operating system and software
@@ -12,6 +12,39 @@ Intel or AMD x86-64 processor, 4.6 GHz processor with 16 GB RAM
 
 Installation guide
 StrucGP can be used without installation.
+
+
+How to acquire StrucGP license to activate your StrucGP software:
+
+1. You can input 'ipconfig/all' in your command prompt window(CMD) on Windows platform. Under "Ethernet adapter" you may find a string consisting of 12 hexadecimal digits after the "Physical Address", which is your device's media access control address(MAC Address). 
+
+2. After getting your MAC address, you need to copy it next to "MAC" between the "####" chars.
+
+3. Besides, in order to get closer contact with users. You need to fill all below items between the "####" chars. You can just send this README txt file to sun_glycolab@126.com after finish it and we will provide StrucGP license to you as soon as possible.
+
+4.You will find a LIC file named StrucGP_license in our reply. Please put it in the same folder as the main.exe. The wrong path or license file may cause failure when you start program.
+
+5. If there are any other errors when you activate or use StrucGP, Please contact with us via sun_glycolab@126.com/JiechenShenGlyco@163.com.
+ 
+
+#####################################################################
+
+MAC:
+
+User Name:
+
+Your e-mail address:
+
+University or Organization name:
+
+Country or Region:
+
+Your Leader or Supervisor:
+
+Your leader's e-mail: 
+
+#####################################################################		
+
 
 
 Instructions for use
@@ -36,7 +69,7 @@ about 30min
 
 Noting
 1. To avoid possible read errors in mzML file, Trans-Proteomic Pipeline is recommended for converting .raw to .mzML.
-2. Up to now, there are a total of 20 branch structrues and we are devoted to achieve branch structure database independant searching for StrucGP currently.
+2. Up to now, there are a total of 17 branch structrues and we are devoted to achieve branch structure database independant searching for StrucGP currently.
 3. Quantification analysis of glycopeptide by StrucGP can use only TMT and iTRAQ, label free quantification will be supportd in later version.
 4. Low energy and High energy spectra were used for glycan structure and peptide identification respectively, if you want to analysis MS file with single energy, set the high and low energy to the same.
 5. Top_n: high energy spectra top peaks number selected for further identification;
